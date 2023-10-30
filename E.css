@@ -1,0 +1,108 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F3F4F6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #539F36;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #E3E4E6;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+footer {
+    background-color: #539F36;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .photo {
+    flex: 2;
+    text-align: center;
+  }
+  
+  .photo-border {
+    border: 5px solid #333; /* Border style, width, and color */
+    border-radius: 20px; /* Border radius for rounded corners */
+    padding: 10px;
+  }
+  
+  img {
+    max-width: 10%;
+    height: auto;
+    border-radius: 15px; /* Optional border radius for the image */
+  }
+  
+  .photo-border p {
+    margin: 0; /* Remove default margin */
+  }
+  
+  

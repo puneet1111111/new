@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    color: green;
+}
+body{
+    text-align: center;
+    border: 0ch;
+    margin: 0;
+    padding: 0;
+
+}
+
+button{
+    padding: 20px  50px;
+    border: none;
+    background-color: green;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: red;
+    color: green;
+    box-shadow:5px 5px 5px 5px rgba(6, 118, 17, 0.945);
+
+}
+
+
+
+
+
+
+
+ 
+ 
+

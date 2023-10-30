@@ -1,0 +1,84 @@
+.one{
+    text-align: center;
+    color: #ae0404;
+    background-color: black;
+}
+.war:hover{
+    background-color: red;
+}
+
+.punna:hover{
+    background-color: #da3305;
+    box-shadow: 5px 5px 5px rgba(13, 236, 176, 0.945);
+}
+
+.punna{
+    background-color: #ad0000;
+    color: green;
+    font-size: medium;
+    width: 50%;
+    height: 5%;
+}
+
+
+.field-group{
+    width: 600px;
+    position: relative;
+    padding-top: 15px;
+}
+.input-field{
+    width: 100%;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid  #ee2222;
+    padding: 10px 0;
+    background: transparent;
+    font-size: 2em;
+    color: #ad0000;
+    transition: 0.3s ease;
+}
+.input-label{
+    display: block;
+    position: absolute;
+    top: 0;
+    font-size: 1em;
+    color: #ff2a00;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+}
+.input-field::placeholder{
+    color: transparent;
+}
+.input-field:placeholder-shown ~ .input-label{
+    font-size: 2em;
+    top: 20px;
+}
+.input-field:focus{
+    border-image: linear-gradient(to right, rgb(128, 0, 0), #f35757,rgb(132, 0, 0));
+    border-image-slice: 1;
+}
+.input-field:focus ~ .input-label{
+    display: block;
+    position: absolute;
+    top: 0;
+    font-size: 1em;
+    color: rgb(104, 5, 5);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    font-family: 'Courier New', Courier, serif;
+}
